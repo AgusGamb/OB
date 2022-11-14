@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title> 02 - Formularios en HTML</title>
+        <title> 02 - Formularios en HTML </title>
     </head>
     <body>
-        <form action="/" method="GET">
+        <form action="/">
         <div>
             <label for="nombre"> Nombre </label>
             <input type="text" name="nombre" id="nombre" />
         </div>
+        <br>
         <div>
             <label for="edad"> Edad </label>
             <input type="number" name="edad" id="edad" />
         </div>
+        <br>
         <div>
             <label for="frase-favorita"> Frase Favorita </label>
-            <input type="text" name="frase-favorita" id="frase-favorita"/>
+            <textarea type="text" name="frase-favorita" id="frase-favorita"></textarea>
         </div>
+        <br>
+        <div>
             <button type="submit">Enviar</button>
             <button type="reset">Reset</button>
+        </div>
         </form>
     </body>
 </html>
