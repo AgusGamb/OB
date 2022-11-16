@@ -5,7 +5,6 @@ A través del encadenamiento de selectores, haz que el primer elemento de la pri
     color: red;
 }
 
-ul, #elemento-1 {
+ul li#elemento-1 {
     font-size: 2rem;
 }
-
