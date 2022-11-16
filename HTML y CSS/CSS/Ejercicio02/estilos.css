@@ -1,0 +1,9 @@
+body {
+    position: fixed;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    flex-wrap: wrap;
+}
